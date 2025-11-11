@@ -186,3 +186,66 @@ __init__
 
 
 # 클래스 문법
+
+
+class accFourCal:
+    def __init__(self, first, second, acc=0):
+        self.first = first
+        self.second = second        
+        self.acc = acc
+    def add(self):
+        result = self.first + self.second
+        return result
+    def mul(self):
+        result = self.first * self.second
+        return result
+    def sub(self):
+        result = self.first - self.second
+        return result
+    def div(self):
+        result = self.first / self.second
+        return result
+    
+#     class FourCal:
+#     def __init__(self, initial_value):
+#         # 첫 번째 인수를 초기 누적 결과(result)로 설정합니다.
+#         self.result = initial_value 
+#         # 기존 first와 second는 누적 계산에선 필요없으므로 제거하거나 주석 처리했습니다.
+
+#     def add(self, value):
+#         # 현재 result에 value를 더하고 다시 result에 저장합니다. (누적)
+#         self.result = self.result + value
+#         return self.result
+
+#     def mul(self, value):
+#         # 현재 result에 value를 곱하고 다시 result에 저장합니다. (누적)
+#         self.result = self.result * value
+#         return self.result
+
+#     def sub(self, value):
+#         # 현재 result에서 value를 빼고 다시 result에 저장합니다. (누적)
+#         self.result = self.result - value
+#         return self.result
+
+#     def div(self, value):
+#         # 현재 result를 value로 나누고 다시 result에 저장합니다. (누적)
+#         if value == 0:
+#             return "Error: Cannot divide by zero"
+#         self.result = self.result / value
+#         return self.result
+
+# # --- 사용 예시 ---
+# a = FourCal(10) # 초기값 10으로 설정
+# print(f"초기값: {a.result}") # 출력: 초기값: 10
+
+# a.add(5) # 10 + 5 = 15
+# print(f"5 더한 후: {a.result}") # 출력: 5 더한 후: 15
+
+# a.mul(3) # 15 * 3 = 45
+# print(f"3 곱한 후: {a.result}") # 출력: 3 곱한 후: 45
+
+# a.sub(10) # 45 - 10 = 35
+# print(f"10 뺀 후: {a.result}") # 출력: 10 뺀 후: 35
+
+# a.div(7) # 35 / 7 = 5.0
+# print(f"7로 나눈 후: {a.result}") # 출력: 7로 나눈 후: 5.0
