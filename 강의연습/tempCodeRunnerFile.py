@@ -1,3 +1,5 @@
-    # def __init__(self, first, second):
-    #     self.first = first
-    #     self.second = second
+import game
+print(game.VERSION)
+
+game.print_version_info()
+game.render_test()

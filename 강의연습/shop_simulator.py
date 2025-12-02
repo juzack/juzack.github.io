@@ -173,7 +173,6 @@
 #         choice = input("메뉴를 선택하세요: ").strip()
         
 #         if choice == '1':
-#             print_products(products)            
 #             # print("\n--- 상품 목록 ---")
 #             # for item in products:
 #             #     print(f"- {item.info()}")
@@ -216,12 +215,9 @@
 #         else:
 #             print("[경고] 유효하지 않은 메뉴 선택입니다. 다시 시도해주세요.")
             
-
 # if __name__ == "__main__":
 #     main()
     
-    
-   
 # # 파이썬으로 쇼핑 카트 & 결제 시뮬레이터를 구현하려고해. 여러 객체(Item, CartItem, Cart, User)를 설계하고, 메서드 호출을 통해 객체 상호작용을 구현하고자해. 
 # # Item 클래스부터 구현 설계방법을 알고 싶어 - 속성: name, price - 메서드: info() 메서드 -> "사과 - 1500원"형태의 문자열을 반환하는 메서드
 # # CartItem 클래스를 구현해야해. - 속성: item, quantity - 메서드: get_total_price() -> item.price*quantity 값 반환 info() -> "사과 x 3개 = 4500원" 형태의 문자열 반환
